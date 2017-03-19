@@ -113,7 +113,7 @@
 
 #ifndef UNIT_TEST
 
-	sleep_offline = 1
+	sleep_offline = 0
 
 #else
 	log_unit_test("Unit Tests Enabled.  This will destroy the world when testing is complete.")
