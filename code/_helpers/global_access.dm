@@ -513,6 +513,8 @@
 			return global.eventchance;
 		if("exclude_jobs")
 			return global.exclude_jobs;
+		if("exited_event")
+			return global.exited_event;
 		if("explosion_in_progress")
 			return global.explosion_in_progress;
 		if("explosion_sound")
@@ -861,6 +863,8 @@
 			return global.mining_walls;
 		if("minor_air_alarms")
 			return global.minor_air_alarms;
+		if("minor_announcement")
+			return global.minor_announcement;
 		if("mob_equipped_event")
 			return global.mob_equipped_event;
 		if("mob_hat_cache")
@@ -949,6 +953,8 @@
 			return global.outfits_decls_root_;
 		if("outside_state")
 			return global.outside_state;
+		if("overmap_event_handler")
+			return global.overmap_event_handler;
 		if("page_sound")
 			return global.page_sound;
 		if("paiController")
@@ -1397,8 +1403,6 @@
 			return global.verbs;
 		if("view_variables_dont_expand")
 			return global.view_variables_dont_expand;
-		if("view_variables_hide_vars")
-			return global.view_variables_hide_vars;
 		if("view_variables_no_assoc")
 			return global.view_variables_no_assoc;
 		if("virusDB")
@@ -1968,6 +1972,8 @@
 			global.eventchance=newval;
 		if("exclude_jobs")
 			global.exclude_jobs=newval;
+		if("exited_event")
+			global.exited_event=newval;
 		if("explosion_in_progress")
 			global.explosion_in_progress=newval;
 		if("explosion_sound")
@@ -2316,6 +2322,8 @@
 			global.mining_walls=newval;
 		if("minor_air_alarms")
 			global.minor_air_alarms=newval;
+		if("minor_announcement")
+			global.minor_announcement=newval;
 		if("mob_equipped_event")
 			global.mob_equipped_event=newval;
 		if("mob_hat_cache")
@@ -2404,6 +2412,8 @@
 			global.outfits_decls_root_=newval;
 		if("outside_state")
 			global.outside_state=newval;
+		if("overmap_event_handler")
+			global.overmap_event_handler=newval;
 		if("page_sound")
 			global.page_sound=newval;
 		if("paiController")
@@ -2852,8 +2862,6 @@
 			global.verbs=newval;
 		if("view_variables_dont_expand")
 			global.view_variables_dont_expand=newval;
-		if("view_variables_hide_vars")
-			global.view_variables_hide_vars=newval;
 		if("view_variables_no_assoc")
 			global.view_variables_no_assoc=newval;
 		if("virusDB")
@@ -3166,6 +3174,7 @@
 	"event_sources_count",
 	"eventchance",
 	"exclude_jobs",
+	"exited_event",
 	"explosion_in_progress",
 	"explosion_sound",
 	"explosion_turfs",
@@ -3340,6 +3349,7 @@
 	"mining_floors",
 	"mining_walls",
 	"minor_air_alarms",
+	"minor_announcement",
 	"mob_equipped_event",
 	"mob_hat_cache",
 	"mob_list",
@@ -3384,6 +3394,7 @@
 	"outfits_decls_by_type_",
 	"outfits_decls_root_",
 	"outside_state",
+	"overmap_event_handler",
 	"page_sound",
 	"paiController",
 	"pai_emotions",
@@ -3608,7 +3619,6 @@
 	"ventcrawl_machinery",
 	"verbs",
 	"view_variables_dont_expand",
-	"view_variables_hide_vars",
 	"view_variables_no_assoc",
 	"virusDB",
 	"visual_nets",

@@ -224,7 +224,7 @@ GUEST_BAN
 ## Remove the # to allow special 'Easter-egg' events on special holidays such as seasonal holidays and stuff like 'Talk Like a Pirate Day' :3 YAARRR
 ALLOW_HOLIDAYS
 ##Defines the ticklag for the world.  0.9 is the normal one, 0.5 is smoother.
-TICKLAG 0.9
+TICKLAG 0.7
 
 ## Defines if Tick Compensation is used.  It results in a minor slowdown of movement of all mobs, but attempts to result in a level movement speed across all ticks.  Recommended if tickrate is lowered.
 TICKCOMP 0
@@ -335,6 +335,9 @@ EVENT_CUSTOM_START_MAJOR 80;100
 
 ## Uncomment to disable the dead OOC channel by default.
 #DISABLE_DEAD_OOC
+
+## Uncomment to disable the AOOC channel by default.
+#DISABLE_AOOC
 
 ## Uncomment to disable ghost chat by default.
 #DISABLE_DSAY
